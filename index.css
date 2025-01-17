@@ -1,0 +1,11 @@
+/* CONTOH EXTERNAL CSS */
+h3{
+    font-size: 60px;
+    color: #8EB486;
+    -webkit-text-stroke: 1px black;
+}
+.tombol2{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
