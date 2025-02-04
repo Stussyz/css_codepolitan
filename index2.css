@@ -1,0 +1,26 @@
+h1{
+    /* menggunakan color RGB */
+    color:rgb(55, 55, 212);
+    background-color: rgb(173, 255, 47);
+}
+
+p{
+    /* menggunakan color HEX */
+    color: #0e0c0c;
+    background-color: #BCCCDC;
+}
+
+button{
+    /* menggunakan color name */
+    color: purple;
+    background-color: khaki;
+    block-size: 50px;
+    inline-size: 80px;
+    font-size: 20px;
+
+}
+
+/* struktur css:
+    selector{
+    property: value;
+} 

@@ -1,0 +1,32 @@
+h1{
+    text-align: center; 
+    /* text-align (posisi text) dapat berupa "start (left), end (kanan), justify (rata kanan kiri), center (tengah) */
+    text-decoration: underline #b61fe4;
+     /* text decoration memberikan desain (underline, overline) pada text */
+}
+
+h2{
+    text-align: start;
+    letter-spacing: 5px;
+    /* letter spacing (jarak antar huruf) dapat bernilai positif = jarak semakin lebar, dan negarif = jarak semakin sempit */
+}
+
+h3{
+    text-align: end;
+    font-weight: 600;
+    /* font weight (ketebalan huruf) boleh menggunakan input "keyword values: bold, lighter, normal" atau "numeric values: 100, 200, 300" */
+    text-decoration: overline #b61fe4;
+}
+
+p{
+    text-align: justify;
+    font-weight: lighter;
+    /* antara font weight "lighter" dengan "normal" memiliki karakter yang mirip */
+    line-height: 150%;
+    /* line height bisa menggunakan nilai = normal, 2.5, 3em, 150%, 32px */
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
