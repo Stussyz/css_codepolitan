@@ -1,0 +1,21 @@
+/* universal selector: */
+* {
+    background-color: peachpuff;
+}
+
+/* element selector: */
+h1, h2, h3 {
+    text-decoration: underline lightcoral;
+    font-size: xx-large;
+    /* background-color: white; */
+}
+
+/* selector attribute class: */
+.button1{ 
+    color: black;
+}
+
+/* selector attribute id: */
+#list1{
+    color: #f52e2e;
+}

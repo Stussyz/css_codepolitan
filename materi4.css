@@ -1,0 +1,6 @@
+h1{
+    font-size: 290%;
+    /* satuan % (relative) satuan px (absolute) */
+    text-decoration: underline lightskyblue;
+    text-align: center;
+}
