@@ -1,0 +1,31 @@
+.body{
+    background-color: black;
+}
+h1, p{
+    color: white;
+}
+
+.book1 h2{
+    color: #493D9E;
+    font-size: xx-large;
+}
+.book1 p{
+    color: #B2A5FF;
+    font-size: medium;
+}
+.book2 h2{
+    color: #0D7C66;
+    font-size: xx-large;
+}
+.book2 p{
+    color: #41B3A2;
+    font-size: medium;
+}
+.book3 h2{
+    color: #FF3EA5;
+    font-size: xx-large;
+}
+.book3 p{
+    color: #FF7ED4;
+    font-size: medium;
+}
