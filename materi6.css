@@ -1,0 +1,90 @@
+.body{
+    background-color: #441752;
+}
+.title h1 {
+    color: white;
+}
+.title p {
+    color:white;
+}
+
+.book1 h2{
+    color: #493D9E;
+    font-size: xx-large;
+}
+
+.book2 h2{
+    color: #0D7C66;
+    font-size: xx-large;
+}
+
+.book3 h2{
+    color: #FF3EA5;
+    font-size: xx-large;
+}
+
+.book2 p{
+    color: #41B3A2;
+    font-size: medium;
+}
+
+.book3 p{
+    color: #FF7ED4;
+    font-size: medium;
+}
+
+/* NEW UPDATES *materi 5 lanjutan 2: */
+/* 1. DIRECT DESCENDANT SELECTOR = hanya 1 tingkat elemen p dibawahnya class saja yang berubah elemen p yang lainnya tidak berubah */
+.book1 > p{
+    color: #FADA7A;
+    font-size: medium;
+}
+/* 2. AJDACENT SELECTOR = elemen button yang dikenakan style hanya button setelah elemen A/Link */
+A + button {
+    background-color: lightcoral;
+}
+/* 3. ATTRIBUTE SELECTOR = lebih fleksibel dalam melakukan style terhadap attribute */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: blue;
+}
+input[name*="tombol"]{
+    background-color: yellow;
+}
+
+
+/* NEW UPDATES *materi 6 */
+/* 1. penggunaan psedou :hover  */
+.book1 > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+section button:hover {
+    background-color: cyan;
+}
+/* 2. penggunaan psedou :nth-of-type() */
+section:nth-of-type(2n) {
+    background-color: #213555;
+}
+/* 3. penggunaan psedou :checked */
+legend, .checky {
+    color: white;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+/* 4. penggunaan psedou elements: */
+section h2::first-letter {
+    text-decoration: underline;
+}
+.title p::first-line {
+    color: red;
+}
+section h2::before {
+    content: '*';
+}
+section p::target-text {
+    background-color: green;
+}
