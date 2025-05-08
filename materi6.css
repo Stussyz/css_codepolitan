@@ -82,7 +82,7 @@ section h2::first-letter {
 .title p::first-line {
     color: red;
 }
-section h2::before {
+section h2::after {
     content: '*';
 }
 section p::target-text {
